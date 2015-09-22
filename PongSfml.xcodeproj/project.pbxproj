@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F1DB783D1BB137C400C421C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DB783C1BB137C400C421C0 /* main.cpp */; };
+		F1DB784A1BB13A4F00C421C0 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DB78481BB13A4F00C421C0 /* Game.cpp */; settings = {ASSET_TAGS = (); }; };
+		F1DB784E1BB13E1500C421C0 /* SplashScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DB784C1BB13E1500C421C0 /* SplashScreen.cpp */; settings = {ASSET_TAGS = (); }; };
+		F1DB78511BB13F4700C421C0 /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1DB784F1BB13F4700C421C0 /* MainMenu.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +20,13 @@
 		F1DB78401BB137C400C421C0 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		F1DB78411BB137C400C421C0 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		F1DB78421BB137C400C421C0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F1DB78481BB13A4F00C421C0 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		F1DB78491BB13A4F00C421C0 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		F1DB784B1BB13D5C00C421C0 /* stdfax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdfax.h; sourceTree = "<group>"; };
+		F1DB784C1BB13E1500C421C0 /* SplashScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashScreen.cpp; sourceTree = "<group>"; };
+		F1DB784D1BB13E1500C421C0 /* SplashScreen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SplashScreen.hpp; sourceTree = "<group>"; };
+		F1DB784F1BB13F4700C421C0 /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		F1DB78501BB13F4700C421C0 /* MainMenu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainMenu.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,13 @@
 			children = (
 				F1DB783C1BB137C400C421C0 /* main.cpp */,
 				F1DB783E1BB137C400C421C0 /* Resources */,
+				F1DB78481BB13A4F00C421C0 /* Game.cpp */,
+				F1DB78491BB13A4F00C421C0 /* Game.hpp */,
+				F1DB784B1BB13D5C00C421C0 /* stdfax.h */,
+				F1DB784C1BB13E1500C421C0 /* SplashScreen.cpp */,
+				F1DB784D1BB13E1500C421C0 /* SplashScreen.hpp */,
+				F1DB784F1BB13F4700C421C0 /* MainMenu.cpp */,
+				F1DB78501BB13F4700C421C0 /* MainMenu.hpp */,
 			);
 			path = PongSfml;
 			sourceTree = "<group>";
@@ -122,6 +139,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DB783D1BB137C400C421C0 /* main.cpp in Sources */,
+				F1DB784E1BB13E1500C421C0 /* SplashScreen.cpp in Sources */,
+				F1DB784A1BB13A4F00C421C0 /* Game.cpp in Sources */,
+				F1DB78511BB13F4700C421C0 /* MainMenu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +275,7 @@
 				F1DB78471BB137C400C421C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
